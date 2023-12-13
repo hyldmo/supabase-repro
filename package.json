@@ -2,7 +2,8 @@
 	"name": "supabase-repro",
 	"scripts": {
 		"dev": "yarn start && vite",
-		"start": "supabase start"
+		"start": "supabase start",
+		"reset": "yarn supabase db reset"
 	},
 	"packageManager": "yarn@4.0.2",
 	"engines": {
